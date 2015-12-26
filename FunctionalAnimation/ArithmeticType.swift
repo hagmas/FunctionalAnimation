@@ -1,3 +1,11 @@
+//
+//  ArithmeticType.swift
+//  FunctionalAnimation
+//
+//  Created by Haga Masaki on 2015/12/26.
+//  Copyright © 2015年 Haga Masaki. All rights reserved.
+//
+
 import Foundation
 import simd
 import UIKit

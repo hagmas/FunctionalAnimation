@@ -20,6 +20,9 @@
 		083021FF1C2E5C1000B13795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 083021FD1C2E5C1000B13795 /* Main.storyboard */; };
 		083022011C2E5C1000B13795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083022001C2E5C1000B13795 /* Assets.xcassets */; };
 		083022041C2E5C1000B13795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 083022021C2E5C1000B13795 /* LaunchScreen.storyboard */; };
+		0848F8BC1C2ECCDC001F4005 /* CALayer+FunctionalAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0848F8B91C2ECCDC001F4005 /* CALayer+FunctionalAnimation.h */; };
+		0848F8BD1C2ECCDC001F4005 /* CALayer+FunctionalAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0848F8BA1C2ECCDC001F4005 /* CALayer+FunctionalAnimation.m */; };
+		0848F8BE1C2ECCDC001F4005 /* CALayer+FunctionalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0848F8BB1C2ECCDC001F4005 /* CALayer+FunctionalAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		083022001C2E5C1000B13795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		083022031C2E5C1000B13795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		083022051C2E5C1000B13795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0848F8B91C2ECCDC001F4005 /* CALayer+FunctionalAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+FunctionalAnimation.h"; sourceTree = "<group>"; };
+		0848F8BA1C2ECCDC001F4005 /* CALayer+FunctionalAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+FunctionalAnimation.m"; sourceTree = "<group>"; };
+		0848F8BB1C2ECCDC001F4005 /* CALayer+FunctionalAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+FunctionalAnimation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,9 @@
 				083021DD1C2E5AAA00B13795 /* InterpolatingFunction.swift */,
 				083021DE1C2E5AAA00B13795 /* SIMDCompatible.swift */,
 				083021D21C2E5A7E00B13795 /* FunctionalAnimation.h */,
+				0848F8B91C2ECCDC001F4005 /* CALayer+FunctionalAnimation.h */,
+				0848F8BA1C2ECCDC001F4005 /* CALayer+FunctionalAnimation.m */,
+				0848F8BB1C2ECCDC001F4005 /* CALayer+FunctionalAnimation.swift */,
 				083021D41C2E5A7E00B13795 /* Info.plist */,
 			);
 			path = FunctionalAnimation;
@@ -142,6 +151,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0848F8BC1C2ECCDC001F4005 /* CALayer+FunctionalAnimation.h in Headers */,
 				083021D31C2E5A7E00B13795 /* FunctionalAnimation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,8 +288,10 @@
 				083021E21C2E5AAA00B13795 /* InterpolatingFunction.swift in Sources */,
 				083021DF1C2E5AAA00B13795 /* AnimatableProperty.swift in Sources */,
 				083021E01C2E5AAA00B13795 /* ArithmeticType.swift in Sources */,
+				0848F8BE1C2ECCDC001F4005 /* CALayer+FunctionalAnimation.swift in Sources */,
 				083021E11C2E5AAA00B13795 /* FunctionalAnimation.swift in Sources */,
 				083021E31C2E5AAA00B13795 /* SIMDCompatible.swift in Sources */,
+				0848F8BD1C2ECCDC001F4005 /* CALayer+FunctionalAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +527,7 @@
 				083021D91C2E5A7E00B13795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		083021F01C2E5BEB00B13795 /* Build configuration list for PBXNativeTarget "FunctionalAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +536,7 @@
 				083021F21C2E5BEB00B13795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		083022061C2E5C1000B13795 /* Build configuration list for PBXNativeTarget "FunctionalAnimationDemo" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +545,7 @@
 				083022081C2E5C1000B13795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
