@@ -8,16 +8,68 @@
 
 /* Begin PBXBuildFile section */
 		083021D31C2E5A7E00B13795 /* FunctionalAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 083021D21C2E5A7E00B13795 /* FunctionalAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		083021DF1C2E5AAA00B13795 /* AnimatableProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083021DA1C2E5AAA00B13795 /* AnimatableProperty.swift */; };
+		083021E01C2E5AAA00B13795 /* ArithmeticType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083021DB1C2E5AAA00B13795 /* ArithmeticType.swift */; };
+		083021E11C2E5AAA00B13795 /* FunctionalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083021DC1C2E5AAA00B13795 /* FunctionalAnimation.swift */; };
+		083021E21C2E5AAA00B13795 /* InterpolatingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083021DD1C2E5AAA00B13795 /* InterpolatingFunction.swift */; };
+		083021E31C2E5AAA00B13795 /* SIMDCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083021DE1C2E5AAA00B13795 /* SIMDCompatible.swift */; };
+		083021EB1C2E5BEB00B13795 /* FunctionalAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083021EA1C2E5BEB00B13795 /* FunctionalAnimationTests.swift */; };
+		083021ED1C2E5BEB00B13795 /* FunctionalAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 083021CF1C2E5A7E00B13795 /* FunctionalAnimation.framework */; };
+		083021FA1C2E5C1000B13795 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083021F91C2E5C1000B13795 /* AppDelegate.swift */; };
+		083021FC1C2E5C1000B13795 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 083021FB1C2E5C1000B13795 /* ViewController.swift */; };
+		083021FF1C2E5C1000B13795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 083021FD1C2E5C1000B13795 /* Main.storyboard */; };
+		083022011C2E5C1000B13795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083022001C2E5C1000B13795 /* Assets.xcassets */; };
+		083022041C2E5C1000B13795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 083022021C2E5C1000B13795 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		083021EE1C2E5BEB00B13795 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 083021C61C2E5A7E00B13795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 083021CE1C2E5A7E00B13795;
+			remoteInfo = FunctionalAnimation;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		083021CF1C2E5A7E00B13795 /* FunctionalAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FunctionalAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		083021D21C2E5A7E00B13795 /* FunctionalAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FunctionalAnimation.h; sourceTree = "<group>"; };
 		083021D41C2E5A7E00B13795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		083021DA1C2E5AAA00B13795 /* AnimatableProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableProperty.swift; sourceTree = "<group>"; };
+		083021DB1C2E5AAA00B13795 /* ArithmeticType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArithmeticType.swift; sourceTree = "<group>"; };
+		083021DC1C2E5AAA00B13795 /* FunctionalAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionalAnimation.swift; sourceTree = "<group>"; };
+		083021DD1C2E5AAA00B13795 /* InterpolatingFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterpolatingFunction.swift; sourceTree = "<group>"; };
+		083021DE1C2E5AAA00B13795 /* SIMDCompatible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SIMDCompatible.swift; sourceTree = "<group>"; };
+		083021E81C2E5BEB00B13795 /* FunctionalAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunctionalAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		083021EA1C2E5BEB00B13795 /* FunctionalAnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalAnimationTests.swift; sourceTree = "<group>"; };
+		083021EC1C2E5BEB00B13795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		083021F71C2E5C1000B13795 /* FunctionalAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunctionalAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		083021F91C2E5C1000B13795 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		083021FB1C2E5C1000B13795 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		083021FE1C2E5C1000B13795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		083022001C2E5C1000B13795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		083022031C2E5C1000B13795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		083022051C2E5C1000B13795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		083021CB1C2E5A7E00B13795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083021E51C2E5BEB00B13795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083021ED1C2E5BEB00B13795 /* FunctionalAnimation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083021F41C2E5C1000B13795 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				083021D11C2E5A7E00B13795 /* FunctionalAnimation */,
+				083021E91C2E5BEB00B13795 /* FunctionalAnimationTests */,
+				083021F81C2E5C1000B13795 /* FunctionalAnimationDemo */,
 				083021D01C2E5A7E00B13795 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				083021CF1C2E5A7E00B13795 /* FunctionalAnimation.framework */,
+				083021E81C2E5BEB00B13795 /* FunctionalAnimationTests.xctest */,
+				083021F71C2E5C1000B13795 /* FunctionalAnimationDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,10 +102,37 @@
 		083021D11C2E5A7E00B13795 /* FunctionalAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				083021DA1C2E5AAA00B13795 /* AnimatableProperty.swift */,
+				083021DB1C2E5AAA00B13795 /* ArithmeticType.swift */,
+				083021DC1C2E5AAA00B13795 /* FunctionalAnimation.swift */,
+				083021DD1C2E5AAA00B13795 /* InterpolatingFunction.swift */,
+				083021DE1C2E5AAA00B13795 /* SIMDCompatible.swift */,
 				083021D21C2E5A7E00B13795 /* FunctionalAnimation.h */,
 				083021D41C2E5A7E00B13795 /* Info.plist */,
 			);
 			path = FunctionalAnimation;
+			sourceTree = "<group>";
+		};
+		083021E91C2E5BEB00B13795 /* FunctionalAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				083021EA1C2E5BEB00B13795 /* FunctionalAnimationTests.swift */,
+				083021EC1C2E5BEB00B13795 /* Info.plist */,
+			);
+			path = FunctionalAnimationTests;
+			sourceTree = "<group>";
+		};
+		083021F81C2E5C1000B13795 /* FunctionalAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				083021F91C2E5C1000B13795 /* AppDelegate.swift */,
+				083021FB1C2E5C1000B13795 /* ViewController.swift */,
+				083021FD1C2E5C1000B13795 /* Main.storyboard */,
+				083022001C2E5C1000B13795 /* Assets.xcassets */,
+				083022021C2E5C1000B13795 /* LaunchScreen.storyboard */,
+				083022051C2E5C1000B13795 /* Info.plist */,
+			);
+			path = FunctionalAnimationDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,16 +167,58 @@
 			productReference = 083021CF1C2E5A7E00B13795 /* FunctionalAnimation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		083021E71C2E5BEB00B13795 /* FunctionalAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 083021F01C2E5BEB00B13795 /* Build configuration list for PBXNativeTarget "FunctionalAnimationTests" */;
+			buildPhases = (
+				083021E41C2E5BEB00B13795 /* Sources */,
+				083021E51C2E5BEB00B13795 /* Frameworks */,
+				083021E61C2E5BEB00B13795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				083021EF1C2E5BEB00B13795 /* PBXTargetDependency */,
+			);
+			name = FunctionalAnimationTests;
+			productName = FunctionalAnimationTests;
+			productReference = 083021E81C2E5BEB00B13795 /* FunctionalAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		083021F61C2E5C1000B13795 /* FunctionalAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 083022061C2E5C1000B13795 /* Build configuration list for PBXNativeTarget "FunctionalAnimationDemo" */;
+			buildPhases = (
+				083021F31C2E5C1000B13795 /* Sources */,
+				083021F41C2E5C1000B13795 /* Frameworks */,
+				083021F51C2E5C1000B13795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunctionalAnimationDemo;
+			productName = FunctionalAnimationDemo;
+			productReference = 083021F71C2E5C1000B13795 /* FunctionalAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		083021C61C2E5A7E00B13795 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Haga Masaki";
 				TargetAttributes = {
 					083021CE1C2E5A7E00B13795 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					083021E71C2E5BEB00B13795 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					083021F61C2E5C1000B13795 = {
 						CreatedOnToolsVersion = 7.1;
 					};
 				};
@@ -104,6 +229,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 083021C51C2E5A7E00B13795;
 			productRefGroup = 083021D01C2E5A7E00B13795 /* Products */;
@@ -111,6 +237,8 @@
 			projectRoot = "";
 			targets = (
 				083021CE1C2E5A7E00B13795 /* FunctionalAnimation */,
+				083021E71C2E5BEB00B13795 /* FunctionalAnimationTests */,
+				083021F61C2E5C1000B13795 /* FunctionalAnimationDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +251,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		083021E61C2E5BEB00B13795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083021F51C2E5C1000B13795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083022041C2E5C1000B13795 /* LaunchScreen.storyboard in Resources */,
+				083022011C2E5C1000B13795 /* Assets.xcassets in Resources */,
+				083021FF1C2E5C1000B13795 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -130,10 +275,59 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				083021E21C2E5AAA00B13795 /* InterpolatingFunction.swift in Sources */,
+				083021DF1C2E5AAA00B13795 /* AnimatableProperty.swift in Sources */,
+				083021E01C2E5AAA00B13795 /* ArithmeticType.swift in Sources */,
+				083021E11C2E5AAA00B13795 /* FunctionalAnimation.swift in Sources */,
+				083021E31C2E5AAA00B13795 /* SIMDCompatible.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083021E41C2E5BEB00B13795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083021EB1C2E5BEB00B13795 /* FunctionalAnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083021F31C2E5C1000B13795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083021FC1C2E5C1000B13795 /* ViewController.swift in Sources */,
+				083021FA1C2E5C1000B13795 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		083021EF1C2E5BEB00B13795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 083021CE1C2E5A7E00B13795 /* FunctionalAnimation */;
+			targetProxy = 083021EE1C2E5BEB00B13795 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		083021FD1C2E5C1000B13795 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				083021FE1C2E5C1000B13795 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		083022021C2E5C1000B13795 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				083022031C2E5C1000B13795 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		083021D51C2E5A7E00B13795 /* Debug */ = {
@@ -228,6 +422,25 @@
 		083021D81C2E5A7E00B13795 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FunctionalAnimation/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.FunctionalAnimation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		083021D91C2E5A7E00B13795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -239,21 +452,47 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		083021D91C2E5A7E00B13795 /* Release */ = {
+		083021F11C2E5BEB00B13795 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FunctionalAnimation/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = FunctionalAnimationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "-.FunctionalAnimation";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.FunctionalAnimationTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		083021F21C2E5BEB00B13795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FunctionalAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.FunctionalAnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		083022071C2E5C1000B13795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunctionalAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.FunctionalAnimationDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		083022081C2E5C1000B13795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunctionalAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.FunctionalAnimationDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -274,6 +513,22 @@
 			buildConfigurations = (
 				083021D81C2E5A7E00B13795 /* Debug */,
 				083021D91C2E5A7E00B13795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		083021F01C2E5BEB00B13795 /* Build configuration list for PBXNativeTarget "FunctionalAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083021F11C2E5BEB00B13795 /* Debug */,
+				083021F21C2E5BEB00B13795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		083022061C2E5C1000B13795 /* Build configuration list for PBXNativeTarget "FunctionalAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083022071C2E5C1000B13795 /* Debug */,
+				083022081C2E5C1000B13795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
