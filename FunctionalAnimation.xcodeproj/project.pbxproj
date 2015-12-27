@@ -23,6 +23,7 @@
 		0848F8BC1C2ECCDC001F4005 /* CALayer+FunctionalAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0848F8B91C2ECCDC001F4005 /* CALayer+FunctionalAnimation.h */; };
 		0848F8BD1C2ECCDC001F4005 /* CALayer+FunctionalAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0848F8BA1C2ECCDC001F4005 /* CALayer+FunctionalAnimation.m */; };
 		0848F8BE1C2ECCDC001F4005 /* CALayer+FunctionalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0848F8BB1C2ECCDC001F4005 /* CALayer+FunctionalAnimation.swift */; };
+		0848F8BF1C2FDC81001F4005 /* FunctionalAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 083021CF1C2E5A7E00B13795 /* FunctionalAnimation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0848F8BF1C2FDC81001F4005 /* FunctionalAnimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

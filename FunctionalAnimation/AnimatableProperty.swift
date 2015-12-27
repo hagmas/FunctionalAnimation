@@ -14,144 +14,144 @@ public protocol AnimatableProperty {
 }
 
 // MARK: Transform
-struct Opacity: AnimatableProperty {
-    typealias PropertyType = CGFloat
-    static func keyPath() -> String {
+public struct Opacity: AnimatableProperty {
+    public typealias PropertyType = CGFloat
+    public static func keyPath() -> String {
         return "opacity"
     }
 }
 
-struct Transform: AnimatableProperty {
-    typealias PropertyType = CATransform3D
-    static func keyPath() -> String {
+public struct Transform: AnimatableProperty {
+    public typealias PropertyType = CATransform3D
+    public static func keyPath() -> String {
         return "transform"
     }
 }
 
-struct TransformRotation: AnimatableProperty {
-    typealias PropertyType = CGFloat
-    static func keyPath() -> String {
+public struct TransformRotation: AnimatableProperty {
+    public typealias PropertyType = CGFloat
+    public static func keyPath() -> String {
         return "transform.rotation"
     }
 }
 
-struct TransformRotationX: AnimatableProperty {
-    typealias PropertyType = CGFloat
-    static func keyPath() -> String {
+public struct TransformRotationX: AnimatableProperty {
+    public typealias PropertyType = CGFloat
+    public static func keyPath() -> String {
         return "transform.rotation.x"
     }
 }
 
-struct TransformRotationY: AnimatableProperty {
-    typealias PropertyType = CGFloat
-    static func keyPath() -> String {
+public struct TransformRotationY: AnimatableProperty {
+    public typealias PropertyType = CGFloat
+    public static func keyPath() -> String {
         return "transform.rotation.y"
     }
 }
 
-struct TransformRotationZ: AnimatableProperty {
-    typealias PropertyType = CGFloat
-    static func keyPath() -> String {
+public struct TransformRotationZ: AnimatableProperty {
+    public typealias PropertyType = CGFloat
+    public static func keyPath() -> String {
         return "transform.rotation.z"
     }
 }
 
-struct TransformScale: AnimatableProperty {
-    typealias PropertyType = CGFloat
-    static func keyPath() -> String {
+public struct TransformScale: AnimatableProperty {
+    public typealias PropertyType = CGFloat
+    public static func keyPath() -> String {
         return "transform.scale"
     }
 }
 
-struct TransformScaleX: AnimatableProperty {
-    typealias PropertyType = CGFloat
-    static func keyPath() -> String {
+public struct TransformScaleX: AnimatableProperty {
+    public typealias PropertyType = CGFloat
+    public static func keyPath() -> String {
         return "transform.scale.x"
     }
 }
 
-struct TransformScaleY: AnimatableProperty {
-    typealias PropertyType = CGFloat
-    static func keyPath() -> String {
+public struct TransformScaleY: AnimatableProperty {
+    public typealias PropertyType = CGFloat
+    public static func keyPath() -> String {
         return "transform.scale.y"
     }
 }
 
-struct TransformScaleZ: AnimatableProperty {
-    typealias PropertyType = CGFloat
-    static func keyPath() -> String {
+public struct TransformScaleZ: AnimatableProperty {
+    public typealias PropertyType = CGFloat
+    public static func keyPath() -> String {
         return "transform.scale.z"
     }
 }
 
-struct TransformTranslation: AnimatableProperty {
-    typealias PropertyType = CGSize
-    static func keyPath() -> String {
+public struct TransformTranslation: AnimatableProperty {
+    public typealias PropertyType = CGSize
+    public static func keyPath() -> String {
         return "transform.translation"
     }
 }
 
-struct TransformTranslationX: AnimatableProperty {
-    typealias PropertyType = CGFloat
-    static func keyPath() -> String {
+public struct TransformTranslationX: AnimatableProperty {
+    public typealias PropertyType = CGFloat
+    public static func keyPath() -> String {
         return "transform.translation.x"
     }
 }
 
-struct TransformTranslationY: AnimatableProperty {
-    typealias PropertyType = CGSize
-    static func keyPath() -> String {
+public struct TransformTranslationY: AnimatableProperty {
+    public typealias PropertyType = CGSize
+    public static func keyPath() -> String {
         return "transform.translation.y"
     }
 }
 
-struct TransformTranslationZ: AnimatableProperty {
-    typealias PropertyType = CGSize
-    static func keyPath() -> String {
+public struct TransformTranslationZ: AnimatableProperty {
+    public typealias PropertyType = CGSize
+    public static func keyPath() -> String {
         return "transform.translation.z"
     }
 }
 
 // MARK: Bounds
-struct BoundsSize: AnimatableProperty {
-    typealias PropertyType = CGSize
-    static func keyPath() -> String {
+public struct BoundsSize: AnimatableProperty {
+    public typealias PropertyType = CGSize
+    public static func keyPath() -> String {
         return "bounds.size"
     }
 }
 
-struct BoundsSizeX: AnimatableProperty {
-    typealias PropertyType = CGFloat
-    static func keyPath() -> String {
+public struct BoundsSizeX: AnimatableProperty {
+    public typealias PropertyType = CGFloat
+    public static func keyPath() -> String {
         return "bounds.size.x"
     }
 }
 
-struct BoundsSizeY: AnimatableProperty {
-    typealias PropertyType = CGFloat
-    static func keyPath() -> String {
+public struct BoundsSizeY: AnimatableProperty {
+    public typealias PropertyType = CGFloat
+    public static func keyPath() -> String {
         return "bounds.size.y"
     }
 }
 
 // MARK: Position
-struct Position: AnimatableProperty {
-    typealias PropertyType = CGSize
-    static func keyPath() -> String {
+public struct Position: AnimatableProperty {
+    public typealias PropertyType = CGSize
+    public static func keyPath() -> String {
         return "position"
     }
 }
 
-struct PositionX: AnimatableProperty {
-    typealias PropertyType = CGFloat
-    static func keyPath() -> String {
+public struct PositionX: AnimatableProperty {
+    public typealias PropertyType = CGFloat
+    public static func keyPath() -> String {
         return "position.x"
     }
 }
 
-struct PositionY: AnimatableProperty {
-    typealias PropertyType = CGFloat
-    static func keyPath() -> String {
+public struct PositionY: AnimatableProperty {
+    public typealias PropertyType = CGFloat
+    public static func keyPath() -> String {
         return "position.y"
     }
 }

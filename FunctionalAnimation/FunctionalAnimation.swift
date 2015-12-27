@@ -16,11 +16,11 @@ protocol FunctionalAnimationProtocol {
 
 public class FunctionalAnimation<T: AnimatableProperty>: CAKeyframeAnimation, FunctionalAnimationProtocol {
     
-    var fromValue:  T.PropertyType?
-    var toValue:    T.PropertyType?
-    var interpolatingFunction   = InterpolatingFunction.Default
+    public var fromValue:  T.PropertyType?
+    public var toValue:    T.PropertyType?
+    public var interpolatingFunction   = InterpolatingFunction.Default
     
-    override init() {
+    public override init() {
         super.init()
         keyPath = T.keyPath()
     }
