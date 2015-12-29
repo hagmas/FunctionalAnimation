@@ -82,13 +82,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
         view.layer.backgroundColor = UIColor.whiteColor().CGColor
         
         maskedLayer.frame = view.bounds
         maskedLayer.backgroundColor = state.fillColor
-    
+        
         view.layer.addSublayer(maskedLayer)
         
         // Add Mask layer
