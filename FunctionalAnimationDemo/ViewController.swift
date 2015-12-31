@@ -9,34 +9,33 @@
 import UIKit
 import FunctionalAnimation
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController {    
     enum State {
         case first, second, third, fourth
         
         var path: CGPathRef {
             switch self {
             case .first:
-                return UIBezierPath(ovalInRect: CGRectMake(0, 0, 200, 200)).CGPath
+                return CharacterData.Brown.path
             case .second:
-                return UIBezierPath(ovalInRect: CGRectMake(0, 0, 200, 200)).CGPath
+                return CharacterData.Sally.path
             case .third:
-                return UIBezierPath(ovalInRect: CGRectMake(0, 0, 200, 200)).CGPath
+                return CharacterData.Lenard.path
             case .fourth:
-                return UIBezierPath(ovalInRect: CGRectMake(0, 0, 200, 200)).CGPath
+                return CharacterData.Cony.path
             }
         }
         
         var fillColor: CGColorRef {
             switch self {
             case .first:
-                return UIColor.redColor().CGColor
+                return CharacterData.Brown.color
             case .second:
-                return UIColor.yellowColor().CGColor
+                return CharacterData.Sally.color
             case .third:
-                return UIColor.blueColor().CGColor
+                return CharacterData.Lenard.color
             case .fourth:
-                return UIColor.greenColor().CGColor
+                return CharacterData.Cony.color
             }
         }
         
@@ -101,7 +100,6 @@ class ViewController: UIViewController {
         shapeLayer.path = state.nextState.path
         shapeLayer.fillColor = state.nextState.fillColor
         shapeLayer.opacity = 0.0
-        shapeLayer.transform = CATransform3DMakeScale(1.5, 1.5, 1.0)
         shapeLayer.actions = ["opacity": NSNull()]
         
         maskedLayer.addSublayer(shapeLayer)
@@ -122,7 +120,7 @@ class ViewController: UIViewController {
     
     override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
         let animation = FunctionalAnimation<TransformScale>()
-        animation.duration = 1.0
+        animation.duration = 0.8
         animation.fromValue = 0.5
         animation.toValue = 4.5
         animation.interpolatingFunction = .ExponentialGrowth(12.0)

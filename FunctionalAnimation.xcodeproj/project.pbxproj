@@ -24,6 +24,7 @@
 		0848F8BD1C2ECCDC001F4005 /* CALayer+FunctionalAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0848F8BA1C2ECCDC001F4005 /* CALayer+FunctionalAnimation.m */; };
 		0848F8BE1C2ECCDC001F4005 /* CALayer+FunctionalAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0848F8BB1C2ECCDC001F4005 /* CALayer+FunctionalAnimation.swift */; };
 		0848F8BF1C2FDC81001F4005 /* FunctionalAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 083021CF1C2E5A7E00B13795 /* FunctionalAnimation.framework */; };
+		0899887C1C355BEA0018C2A4 /* CharacterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0899887B1C355BEA0018C2A4 /* CharacterData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		0848F8B91C2ECCDC001F4005 /* CALayer+FunctionalAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+FunctionalAnimation.h"; sourceTree = "<group>"; };
 		0848F8BA1C2ECCDC001F4005 /* CALayer+FunctionalAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+FunctionalAnimation.m"; sourceTree = "<group>"; };
 		0848F8BB1C2ECCDC001F4005 /* CALayer+FunctionalAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+FunctionalAnimation.swift"; sourceTree = "<group>"; };
+		0899887B1C355BEA0018C2A4 /* CharacterData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 			children = (
 				083021F91C2E5C1000B13795 /* AppDelegate.swift */,
 				083021FB1C2E5C1000B13795 /* ViewController.swift */,
+				0899887B1C355BEA0018C2A4 /* CharacterData.swift */,
 				083021FD1C2E5C1000B13795 /* Main.storyboard */,
 				083022001C2E5C1000B13795 /* Assets.xcassets */,
 				083022021C2E5C1000B13795 /* LaunchScreen.storyboard */,
@@ -310,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				083021FC1C2E5C1000B13795 /* ViewController.swift in Sources */,
+				0899887C1C355BEA0018C2A4 /* CharacterData.swift in Sources */,
 				083021FA1C2E5C1000B13795 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
